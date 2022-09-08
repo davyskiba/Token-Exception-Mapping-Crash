@@ -1,0 +1,37 @@
+PODS:
+  - Ably (1.2.10):
+    - AblyDeltaCodec (= 1.3.2)
+    - msgpack (= 0.4.0)
+  - ably_flutter (1.2.15):
+    - Ably (= 1.2.10)
+    - Flutter
+  - AblyDeltaCodec (1.3.2)
+  - Flutter (1.0.0)
+  - msgpack (0.4.0)
+
+DEPENDENCIES:
+  - ably_flutter (from `.symlinks/plugins/ably_flutter/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - Ably
+    - AblyDeltaCodec
+    - msgpack
+
+EXTERNAL SOURCES:
+  ably_flutter:
+    :path: ".symlinks/plugins/ably_flutter/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Ably: 80be962e2e87bac69727a26ba72b868c8e86288e
+  ably_flutter: bba4fea46a2a3269fae98b67bd5c0c75cf3f0132
+  AblyDeltaCodec: 783d017270de70bbbc0a84e4235297b225d33636
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  msgpack: c85f6251873059738472ae136951cec5f30f3251
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
